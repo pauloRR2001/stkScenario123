@@ -1,0 +1,1874 @@
+Astrogator Log File; DriverMCS: Mission_Control_Sequence
+-------------------------------------------------------------
+
+
+----------------------------------------------
+Begin targeter profile Target_Approach.Target_to_InTrack
+
+Initial control parameters:
+
+Unscaled Controls:
+Name                                    Current Value           Last Update       Total Correction
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU  31.690540372034 m/sec  0.000000000000 m/sec  31.690540372034 m/sec
+
+
+Homotopy step   1 of   1
+
+Intermediate Goals Desired:
+Drift : InTrack  1.000000000000 km
+
+
+
+---Running one step of the differential corrector...
+
+--------------------------------------------------------
+
+<<< Targeting Finished >>>
+    [Goals met]
+
+
+--------------------------------------------------------
+
+---Done. (running one step of the differential corrector.)
+
+Params from single diff corr
+
+Unscaled Controls:
+Name                                    Current Value           Last Update       Total Correction
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU  31.690540372034 m/sec  0.000000000000 m/sec  31.690540372034 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name              Current Value            Desired         Difference          Tolerance
+Drift : InTrack  1.000779593661 km  1.000000000000 km  0.000779593661 km  0.001000000000 km
+
+
+
+----------------------------------------------
+Final Params from Homotopy Diff Corr
+
+Unscaled Controls:
+Name                                    Current Value           Last Update       Total Correction
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU  31.690540372034 m/sec  0.000000000000 m/sec  31.690540372034 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name              Current Value            Desired         Difference          Tolerance
+Drift : InTrack  1.000779593661 km  1.000000000000 km  0.000779593661 km  0.001000000000 km
+
+
+
+----------------------------------------------
+
+*********** Done Targeting************************
+
+End targeter profile Target_Approach.Target_to_InTrack
+----------------------------------------------
+Begin targeter profile Target_Approach.Target_Radial_&_InTrack
+
+Initial control parameters:
+
+Unscaled Controls:
+Name                                    Current Value           Last Update       Total Correction
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU -84.583603697648 m/sec  0.000000000000 m/sec -84.583603697648 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU  32.822975759362 m/sec  0.000000000000 m/sec   1.132435387328 m/sec
+
+
+Homotopy step   1 of   1
+
+Intermediate Goals Desired:
+Drift : InTrack  1.000000000000 km
+Drift : Radial   0.000000000000 km
+
+
+
+---Running one step of the differential corrector...
+
+--------------------------------------------------------
+
+<<< Targeting Finished >>>
+    [Goals met]
+
+
+--------------------------------------------------------
+
+---Done. (running one step of the differential corrector.)
+
+Params from single diff corr
+
+Unscaled Controls:
+Name                                    Current Value           Last Update       Total Correction
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU -84.583603697648 m/sec  0.000000000000 m/sec -84.583603697648 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU  32.822975759362 m/sec  0.000000000000 m/sec   1.132435387328 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name              Current Value            Desired         Difference          Tolerance
+Drift : InTrack  0.999986780779 km  1.000000000000 km -0.000013219221 km  0.001000000000 km
+Drift : Radial  -0.000000687267 km  0.000000000000 km -0.000000687267 km  0.001000000000 km
+
+
+
+----------------------------------------------
+Final Params from Homotopy Diff Corr
+
+Unscaled Controls:
+Name                                    Current Value           Last Update       Total Correction
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU -84.583603697648 m/sec  0.000000000000 m/sec -84.583603697648 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU  32.822975759362 m/sec  0.000000000000 m/sec   1.132435387328 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name              Current Value            Desired         Difference          Tolerance
+Drift : InTrack  0.999986780779 km  1.000000000000 km -0.000013219221 km  0.001000000000 km
+Drift : Radial  -0.000000687267 km  0.000000000000 km -0.000000687267 km  0.001000000000 km
+
+
+
+----------------------------------------------
+
+*********** Done Targeting************************
+
+End targeter profile Target_Approach.Target_Radial_&_InTrack
+----------------------------------------------
+Begin targeter profile Target_Approach.Target_RIC
+
+Initial control parameters:
+
+Unscaled Controls:
+Name                                     Current Value           Last Update        Total Correction
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU -198.772708872971 m/sec  0.000000000000 m/sec -114.189105175324 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU   32.796697033827 m/sec  0.000000000000 m/sec   -0.026278725535 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU    1.418022931447 m/sec  0.000000000000 m/sec    1.418022931447 m/sec
+
+
+Homotopy step   1 of   1
+
+Intermediate Goals Desired:
+Drift : CrossTrack  0.000000000000 km
+Drift : InTrack     1.000000000000 km
+Drift : Radial      0.000000000000 km
+
+
+
+---Running one step of the differential corrector...
+
+-------------------------------------------------------------
+Iteration =   1
+Unscaled Intermediate Constraints:
+Name                   Current Value            Desired           Difference          Tolerance
+Drift : CrossTrack    0.064973848997 km  0.000000000000 km    0.064973848997 km  0.001000000000 km
+Drift : InTrack       4.024651907107 km  1.000000000000 km    3.024651907107 km  0.001000000000 km
+Drift : Radial     -100.329930861039 km  0.000000000000 km -100.329930861039 km  0.001000000000 km
+
+
+
+Performing one Newton-Raphson Step...
+
+Perturbation evaluation +1
+Controls:
+Name                                             Value          Perturbation       Scaled Perturbation
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU -197.772708872971 m/sec  1.000000000000 m/sec      0.011822622308
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU   32.796697033827 m/sec  0.000000000000 m/sec      0.000000000000
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU    1.418022931447 m/sec  0.000000000000 m/sec      0.000000000000
+
+Constraints:
+Name                          Value             Change          Scaled Change
+Drift : CrossTrack   0.064951271231 km -0.000022577765 km    -0.0225777654323
+Drift : InTrack      4.834463923373 km  0.809812016267 km       809.812016267
+Drift : Radial     -99.455635375018 km  0.874295486021 km       874.295486021
+
+
+Perturbation evaluation +2
+Controls:
+Name                                             Value          Perturbation       Scaled Perturbation
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU -198.772708872971 m/sec  0.000000000000 m/sec      0.000000000000
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU   33.796697033827 m/sec  1.000000000000 m/sec      0.030466463715
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU    1.418022931447 m/sec  0.000000000000 m/sec      0.000000000000
+
+Constraints:
+Name                           Value               Change          Scaled Change
+Drift : CrossTrack    0.038694545968 km   -0.026279303029 km      -26.2793030285
+Drift : InTrack    -103.927129587705 km -107.951781494812 km      -107951.781495
+Drift : Radial     -100.407457688582 km   -0.077526827543 km      -77.5268275432
+
+
+Perturbation evaluation +3
+Controls:
+Name                                             Value          Perturbation       Scaled Perturbation
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU -198.772708872971 m/sec  0.000000000000 m/sec      0.000000000000
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU   32.796697033827 m/sec  0.000000000000 m/sec      0.000000000000
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU    2.418022931447 m/sec  1.000000000000 m/sec      1.000000000000
+
+Constraints:
+Name                           Value             Change          Scaled Change
+Drift : CrossTrack    0.965175473363 km  0.900201624367 km       900.201624367
+Drift : InTrack       4.007279275784 km -0.017372631323 km      -17.3726313231
+Drift : Radial     -100.329838166138 km  0.000092694901 km     0.0926949006243
+
+
+Partial derivative matrix (scaled) :
+
+        -1.9097087637        68496.8186535        73951.0629042
+       -862.564926277       -3543298.70718       -2544.66118115
+        900.201624367       -17.3726313231      0.0926949006243
+
+Newton Step Done...
+
+DC proposed step:
+Name                                          Scaled          Unscaled
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU  1.357639611696  114.834050879959 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU  0.027098872236    0.889465626503 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU -0.043330977132   -0.043330977132 m/sec
+
+
+Step with Max Step limits applied:
+Name                                          Scaled         Unscaled
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU  0.118226223084  10.000000000000 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU  0.002359828990   0.077456609750 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU -0.003773356143  -0.003773356143 m/sec
+
+
+Step final values:
+
+Unscaled Controls:
+Name                                     Current Value            Last Update        Total Correction
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU -188.772708872971 m/sec  10.000000000000 m/sec -104.189105175324 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU   32.874153643577 m/sec   0.077456609750 m/sec    0.051177884215 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU    1.414249575304 m/sec  -0.003773356143 m/sec    1.414249575304 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                  Current Value            Desired          Difference          Tolerance
+Drift : CrossTrack   0.059296740655 km  0.000000000000 km   0.059296740655 km  0.001000000000 km
+Drift : InTrack      3.127635899714 km  1.000000000000 km   2.127635899714 km  0.001000000000 km
+Drift : Radial     -91.521655589110 km  0.000000000000 km -91.521655589110 km  0.001000000000 km
+
+
+
+-------------------------------------------------------------
+Iteration =   2
+Unscaled Intermediate Constraints:
+Name                  Current Value            Desired          Difference          Tolerance
+Drift : CrossTrack   0.059296740655 km  0.000000000000 km   0.059296740655 km  0.001000000000 km
+Drift : InTrack      3.127635899714 km  1.000000000000 km   2.127635899714 km  0.001000000000 km
+Drift : Radial     -91.521655589110 km  0.000000000000 km -91.521655589110 km  0.001000000000 km
+
+
+
+Updating partials with Secant method...
+
+Partial derivative matrix (scaled) :
+
+       -2.07055878806        63144.9933266        74553.5078978
+        -862.56813689       -3543405.53114       -2532.63620798
+        900.206758121        153.438398982       -19.1351841431
+
+Secant Update Done...
+
+DC proposed step:
+Name                                          Scaled          Unscaled
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU  1.228350201060  103.898286608406 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU  0.022488375451    0.738135402307 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU -0.041496703840   -0.041496703840 m/sec
+
+
+Step with Max Step limits applied:
+Name                                          Scaled         Unscaled
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU  0.118226223084  10.000000000000 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU  0.002164460665   0.071044039936 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU -0.003993973837  -0.003993973837 m/sec
+
+
+Step final values:
+
+Unscaled Controls:
+Name                                     Current Value            Last Update       Total Correction
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU -178.772708872971 m/sec  10.000000000000 m/sec -94.189105175324 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU   32.945197683513 m/sec   0.071044039936 m/sec   0.122221924151 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU    1.410255601467 m/sec  -0.003993973837 m/sec   1.410255601467 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                  Current Value            Desired          Difference          Tolerance
+Drift : CrossTrack   0.053591162877 km  0.000000000000 km   0.053591162877 km  0.001000000000 km
+Drift : InTrack      1.505854798449 km  1.000000000000 km   0.505854798449 km  0.001000000000 km
+Drift : Radial     -82.710828458768 km  0.000000000000 km -82.710828458768 km  0.001000000000 km
+
+
+
+-------------------------------------------------------------
+Iteration =   3
+Unscaled Intermediate Constraints:
+Name                  Current Value            Desired          Difference          Tolerance
+Drift : CrossTrack   0.053591162877 km  0.000000000000 km   0.053591162877 km  0.001000000000 km
+Drift : InTrack      1.505854798449 km  1.000000000000 km   0.505854798449 km  0.001000000000 km
+Drift : Radial     -82.710828458768 km  0.000000000000 km -82.710828458768 km  0.001000000000 km
+
+
+
+Updating partials with Secant method...
+
+Partial derivative matrix (scaled) :
+
+       -2.05693041675        51177.1625617        74570.8459595
+       -862.567887384       -3543624.63565       -2532.31878641
+        900.206297721        557.741282988       -19.7209066927
+
+Secant Update Done...
+
+DC proposed step:
+Name                                          Scaled         Unscaled
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU  1.109695583362  93.862051448134 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU  0.016162483400   0.530500800848 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU -0.041509770829  -0.041509770829 m/sec
+
+
+Step with Max Step limits applied:
+Name                                          Scaled         Unscaled
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU  0.118226223084  10.000000000000 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU  0.001721940140   0.056519199470 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU -0.004422423140  -0.004422423140 m/sec
+
+
+Step final values:
+
+Unscaled Controls:
+Name                                     Current Value            Last Update       Total Correction
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU -168.772708872971 m/sec  10.000000000000 m/sec -84.189105175324 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU   33.001716882983 m/sec   0.056519199470 m/sec   0.178741123621 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU    1.405833178327 m/sec  -0.004422423140 m/sec   1.405833178327 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                  Current Value            Desired          Difference          Tolerance
+Drift : CrossTrack   0.047883516048 km  0.000000000000 km   0.047883516048 km  0.001000000000 km
+Drift : InTrack      0.027857227672 km  1.000000000000 km  -0.972142772328 km  0.001000000000 km
+Drift : Radial     -73.903979669371 km  0.000000000000 km -73.903979669371 km  0.001000000000 km
+
+
+
+-------------------------------------------------------------
+Iteration =   4
+Unscaled Intermediate Constraints:
+Name                  Current Value            Desired          Difference          Tolerance
+Drift : CrossTrack   0.047883516048 km  0.000000000000 km   0.047883516048 km  0.001000000000 km
+Drift : InTrack      0.027857227672 km  1.000000000000 km  -0.972142772328 km  0.001000000000 km
+Drift : Radial     -73.903979669371 km  0.000000000000 km -73.903979669371 km  0.001000000000 km
+
+
+
+Updating partials with Secant method...
+
+Partial derivative matrix (scaled) :
+
+       -2.04071889388        39150.9552786        74527.7152853
+       -862.567651267       -3543799.79484       -2532.94697564
+        900.205691306        1007.59898788       -18.1075413461
+
+Secant Update Done...
+
+DC proposed step:
+Name                                          Scaled         Unscaled
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU  0.991983679541  83.905554424849 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU  0.010673272401   0.350328561291 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU -0.040715957540  -0.040715957540 m/sec
+
+
+Step with Max Step limits applied:
+Name                                          Scaled         Unscaled
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU  0.118226223084  10.000000000000 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU  0.001272057908   0.041752725870 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU -0.004852593826  -0.004852593826 m/sec
+
+
+Step final values:
+
+Unscaled Controls:
+Name                                     Current Value            Last Update       Total Correction
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU -158.772708872971 m/sec  10.000000000000 m/sec -74.189105175324 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU   33.043469608854 m/sec   0.041752725870 m/sec   0.220493849492 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU    1.400980584501 m/sec  -0.004852593826 m/sec   1.400980584501 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                  Current Value            Desired          Difference          Tolerance
+Drift : CrossTrack   0.042176418291 km  0.000000000000 km   0.042176418291 km  0.001000000000 km
+Drift : InTrack     -1.286424773461 km  1.000000000000 km  -2.286424773461 km  0.001000000000 km
+Drift : Radial     -65.101373283670 km  0.000000000000 km -65.101373283670 km  0.001000000000 km
+
+
+
+-------------------------------------------------------------
+Iteration =   5
+Unscaled Intermediate Constraints:
+Name                  Current Value            Desired          Difference          Tolerance
+Drift : CrossTrack   0.042176418291 km  0.000000000000 km   0.042176418291 km  0.001000000000 km
+Drift : InTrack     -1.286424773461 km  1.000000000000 km  -2.286424773461 km  0.001000000000 km
+Drift : Radial     -65.101373283670 km  0.000000000000 km -65.101373283670 km  0.001000000000 km
+
+
+
+Updating partials with Secant method...
+
+Partial derivative matrix (scaled) :
+
+       -2.04293680559         27076.026136        74482.2090161
+        -862.56767513       -3543929.71533       -2533.43660144
+         900.20578234        1503.21430132       -16.2397371015
+
+Secant Update Done...
+
+DC proposed step:
+Name                                          Scaled         Unscaled
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU  0.874248822204  73.947115910433 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU  0.006017608223   0.197515808832 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU -0.039101935969  -0.039101935969 m/sec
+
+
+Step with Max Step limits applied:
+Name                                          Scaled         Unscaled
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU  0.118226223084  10.000000000000 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU  0.000813771862   0.026710414111 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU -0.005287824344  -0.005287824344 m/sec
+
+
+Step final values:
+
+Unscaled Controls:
+Name                                     Current Value            Last Update       Total Correction
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU -148.772708872971 m/sec  10.000000000000 m/sec -64.189105175324 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU   33.070180022965 m/sec   0.026710414111 m/sec   0.247204263603 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU    1.395692760157 m/sec  -0.005287824344 m/sec   1.395692760157 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                  Current Value            Desired          Difference          Tolerance
+Drift : CrossTrack   0.036470439477 km  0.000000000000 km   0.036470439477 km  0.001000000000 km
+Drift : InTrack     -2.412467938064 km  1.000000000000 km  -3.412467938064 km  0.001000000000 km
+Drift : Radial     -56.303306777688 km  0.000000000000 km -56.303306777688 km  0.001000000000 km
+
+
+
+-------------------------------------------------------------
+Iteration =   6
+Unscaled Intermediate Constraints:
+Name                  Current Value            Desired          Difference          Tolerance
+Drift : CrossTrack   0.036470439477 km  0.000000000000 km   0.036470439477 km  0.001000000000 km
+Drift : InTrack     -2.412467938064 km  1.000000000000 km  -3.412467938064 km  0.001000000000 km
+Drift : Radial     -56.303306777688 km  0.000000000000 km -56.303306777688 km  0.001000000000 km
+
+
+
+Updating partials with Secant method...
+
+Partial derivative matrix (scaled) :
+
+       -2.06308360275        14961.0544735        74434.0274774
+       -862.567813804       -3544013.10481       -2533.76824344
+        900.206683432        2045.07244764       -14.0847539993
+
+Secant Update Done...
+
+DC proposed step:
+Name                                          Scaled         Unscaled
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU  0.756487195362  63.986413134844 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU  0.002209472788   0.072521471755 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU -0.036662606093  -0.036662606093 m/sec
+
+
+Step with Max Step limits applied:
+Name                                          Scaled         Unscaled
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU  0.118226223084  10.000000000000 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU  0.000345303429   0.011333886086 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU -0.005729748598  -0.005729748598 m/sec
+
+
+Step final values:
+
+Unscaled Controls:
+Name                                     Current Value            Last Update       Total Correction
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU -138.772708872971 m/sec  10.000000000000 m/sec -54.189105175324 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU   33.081513909051 m/sec   0.011333886086 m/sec   0.258538149690 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU    1.389963011559 m/sec  -0.005729748598 m/sec   1.389963011559 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                  Current Value            Desired          Difference          Tolerance
+Drift : CrossTrack   0.030767880038 km  0.000000000000 km   0.030767880038 km  0.001000000000 km
+Drift : InTrack     -3.319366379223 km  1.000000000000 km  -4.319366379223 km  0.001000000000 km
+Drift : Radial     -47.510127617356 km  0.000000000000 km -47.510127617356 km  0.001000000000 km
+
+
+
+-------------------------------------------------------------
+Iteration =   7
+Unscaled Intermediate Constraints:
+Name                  Current Value            Desired          Difference          Tolerance
+Drift : CrossTrack   0.030767880038 km  0.000000000000 km   0.030767880038 km  0.001000000000 km
+Drift : InTrack     -3.319366379223 km  1.000000000000 km  -4.319366379223 km  0.001000000000 km
+Drift : Radial     -47.510127617356 km  0.000000000000 km -47.510127617356 km  0.001000000000 km
+
+
+
+Updating partials with Secant method...
+
+Partial derivative matrix (scaled) :
+
+       -2.08707628249        2807.89004111         74382.716861
+        -862.56788388       -3544048.60056        -2533.9181064
+         900.20784622        2634.06679294       -11.5980219959
+
+Secant Update Done...
+
+DC proposed step:
+Name                                          Scaled         Unscaled
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU  0.638695025705  54.023126937856 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU -0.000737566326  -0.024209121623 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU -0.033404592005  -0.033404592005 m/sec
+
+
+Step with Max Step limits applied:
+Name                                          Scaled         Unscaled
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU  0.118226223084  10.000000000000 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU -0.000136527885  -0.004481251456 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU -0.006183387356  -0.006183387356 m/sec
+
+
+Step final values:
+
+Unscaled Controls:
+Name                                     Current Value            Last Update       Total Correction
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU -128.772708872971 m/sec  10.000000000000 m/sec -44.189105175324 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU   33.077032657596 m/sec  -0.004481251456 m/sec   0.254056898234 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU    1.383779624203 m/sec  -0.006183387356 m/sec   1.383779624203 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                  Current Value            Desired          Difference          Tolerance
+Drift : CrossTrack   0.025068471165 km  0.000000000000 km   0.025068471165 km  0.001000000000 km
+Drift : InTrack     -3.964483989816 km  1.000000000000 km  -4.964483989816 km  0.001000000000 km
+Drift : Radial     -38.722300537598 km  0.000000000000 km -38.722300537598 km  0.001000000000 km
+
+
+
+-------------------------------------------------------------
+Iteration =   8
+Unscaled Intermediate Constraints:
+Name                  Current Value            Desired          Difference          Tolerance
+Drift : CrossTrack   0.025068471165 km  0.000000000000 km   0.025068471165 km  0.001000000000 km
+Drift : InTrack     -3.964483989816 km  1.000000000000 km  -4.964483989816 km  0.001000000000 km
+Drift : Radial     -38.722300537598 km  0.000000000000 km -38.722300537598 km  0.001000000000 km
+
+
+
+Updating partials with Secant method...
+
+Partial derivative matrix (scaled) :
+
+       -2.12159748818        -9378.1962452        74327.2274035
+       -862.567844015       -3544034.52805       -2533.85402706
+        900.209651725        3271.41517386       -8.69585020418
+
+Secant Update Done...
+
+DC proposed step:
+Name                                          Scaled         Unscaled
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU  0.520871510687  44.057189437338 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU -0.002806180317  -0.092107188521 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU -0.029308630864  -0.029308630864 m/sec
+
+
+Step with Max Step limits applied:
+Name                                          Scaled         Unscaled
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU  0.118226223084  10.000000000000 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU -0.000636940384  -0.020906278793 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU -0.006652405938  -0.006652405938 m/sec
+
+
+Step final values:
+
+Unscaled Controls:
+Name                                     Current Value            Last Update       Total Correction
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU -118.772708872971 m/sec  10.000000000000 m/sec -34.189105175324 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU   33.056126378803 m/sec  -0.020906278793 m/sec   0.233150619441 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU    1.377127218265 m/sec  -0.006652405938 m/sec   1.377127218265 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                  Current Value            Desired          Difference          Tolerance
+Drift : CrossTrack   0.019372627132 km  0.000000000000 km   0.019372627132 km  0.001000000000 km
+Drift : InTrack     -4.286268314346 km  1.000000000000 km  -5.286268314346 km  0.001000000000 km
+Drift : Radial     -29.940476428782 km  0.000000000000 km -29.940476428782 km  0.001000000000 km
+
+
+
+-------------------------------------------------------------
+Iteration =   9
+Unscaled Intermediate Constraints:
+Name                  Current Value            Desired          Difference          Tolerance
+Drift : CrossTrack   0.019372627132 km  0.000000000000 km   0.019372627132 km  0.001000000000 km
+Drift : InTrack     -4.286268314346 km  1.000000000000 km  -5.286268314346 km  0.001000000000 km
+Drift : Radial     -29.940476428782 km  0.000000000000 km -29.940476428782 km  0.001000000000 km
+
+
+
+Updating partials with Secant method...
+
+Partial derivative matrix (scaled) :
+
+        -2.1710042313       -21592.0493975        74265.8886358
+       -862.567577837       -3543968.72626       -2533.52356621
+        900.212431765         3958.6697196       -5.24441301735
+
+Secant Update Done...
+
+DC proposed step:
+Name                                          Scaled         Unscaled
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU  0.403015171491  34.088475549535 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU -0.003974247791  -0.130446638896 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU -0.024356180838  -0.024356180838 m/sec
+
+
+Step with Max Step limits applied:
+Name                                          Scaled         Unscaled
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU  0.118226223084  10.000000000000 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU -0.001165862576  -0.038267079062 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU -0.007144989749  -0.007144989749 m/sec
+
+
+Step final values:
+
+Unscaled Controls:
+Name                                     Current Value            Last Update       Total Correction
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU -108.772708872971 m/sec  10.000000000000 m/sec -24.189105175324 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU   33.017859299741 m/sec  -0.038267079062 m/sec   0.194883540379 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU    1.369982228515 m/sec  -0.007144989749 m/sec   1.369982228515 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                  Current Value            Desired          Difference          Tolerance
+Drift : CrossTrack   0.013683686257 km  0.000000000000 km   0.013683686257 km  0.001000000000 km
+Drift : InTrack     -4.188896572560 km  1.000000000000 km  -5.188896572560 km  0.001000000000 km
+Drift : Radial     -21.165643900467 km  0.000000000000 km -21.165643900467 km  0.001000000000 km
+
+
+
+-------------------------------------------------------------
+Iteration =  10
+Unscaled Intermediate Constraints:
+Name                  Current Value            Desired          Difference          Tolerance
+Drift : CrossTrack   0.013683686257 km  0.000000000000 km   0.013683686257 km  0.001000000000 km
+Drift : InTrack     -4.188896572560 km  1.000000000000 km  -5.188896572560 km  0.001000000000 km
+Drift : Radial     -21.165643900467 km  0.000000000000 km -21.165643900467 km  0.001000000000 km
+
+
+
+Updating partials with Secant method...
+
+Partial derivative matrix (scaled) :
+
+       -2.22070448838       -33839.3187891        74195.6583005
+       -862.567087729       -3543847.95244        -2532.8310048
+        900.215435395        4698.83219777       -1.00004985795
+
+Secant Update Done...
+
+DC proposed step:
+Name                                          Scaled         Unscaled
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU  0.285123944165  24.116810697924 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU -0.004211347968  -0.138228972281 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU -0.018532319854  -0.018532319854 m/sec
+
+
+Step with Max Step limits applied:
+Name                                          Scaled         Unscaled
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU  0.118226223084  10.000000000000 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU -0.001746229226  -0.057316439562 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU -0.007684399105  -0.007684399105 m/sec
+
+
+Step final values:
+
+Unscaled Controls:
+Name                                    Current Value            Last Update       Total Correction
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU -98.772708872971 m/sec  10.000000000000 m/sec -14.189105175324 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU  32.960542860178 m/sec  -0.057316439562 m/sec   0.137567100817 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU   1.362297829410 m/sec  -0.007684399105 m/sec   1.362297829410 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                  Current Value            Desired          Difference          Tolerance
+Drift : CrossTrack   0.008002117992 km  0.000000000000 km   0.008002117992 km  0.001000000000 km
+Drift : InTrack     -3.496253076394 km  1.000000000000 km  -4.496253076394 km  0.001000000000 km
+Drift : Radial     -12.399603928806 km  0.000000000000 km -12.399603928806 km  0.001000000000 km
+
+
+
+-------------------------------------------------------------
+Iteration =  11
+Unscaled Intermediate Constraints:
+Name                  Current Value            Desired          Difference          Tolerance
+Drift : CrossTrack   0.008002117992 km  0.000000000000 km   0.008002117992 km  0.001000000000 km
+Drift : InTrack     -3.496253076394 km  1.000000000000 km  -4.496253076394 km  0.001000000000 km
+Drift : Radial     -12.399603928806 km  0.000000000000 km -12.399603928806 km  0.001000000000 km
+
+
+
+Updating partials with Secant method...
+
+Partial derivative matrix (scaled) :
+
+       -2.28510732914       -46124.8482026        74109.2335535
+       -862.566136484       -3543666.49227       -2531.55449088
+        900.219621413        5497.35987434        4.61733545068
+
+Secant Update Done...
+
+DC proposed step:
+Name                                          Scaled         Unscaled
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU  0.167197662889  14.142180856971 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU -0.003463360954  -0.113677812650 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU -0.011783159367  -0.011783159367 m/sec
+
+
+Step with Max Step limits applied:
+Name                                          Scaled         Unscaled
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU  0.118226223084  10.000000000000 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU -0.002448958184  -0.080382095095 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU -0.008331925243  -0.008331925243 m/sec
+
+
+Step final values:
+
+Unscaled Controls:
+Name                                    Current Value            Last Update       Total Correction
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU -88.772708872971 m/sec  10.000000000000 m/sec  -4.189105175324 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU  32.880160765083 m/sec  -0.080382095095 m/sec   0.057185005721 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU   1.353965904168 m/sec  -0.008331925243 m/sec   1.353965904168 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                 Current Value            Desired         Difference          Tolerance
+Drift : CrossTrack  0.002336050260 km  0.000000000000 km  0.002336050260 km  0.001000000000 km
+Drift : InTrack    -1.785902172323 km  1.000000000000 km -2.785902172323 km  0.001000000000 km
+Drift : Radial     -3.646601669404 km  0.000000000000 km -3.646601669404 km  0.001000000000 km
+
+
+
+-------------------------------------------------------------
+Iteration =  12
+Unscaled Intermediate Constraints:
+Name                 Current Value            Desired         Difference          Tolerance
+Drift : CrossTrack  0.002336050260 km  0.000000000000 km  0.002336050260 km  0.001000000000 km
+Drift : InTrack    -1.785902172323 km  1.000000000000 km -2.785902172323 km  0.001000000000 km
+Drift : Radial     -3.646601669404 km  0.000000000000 km -3.646601669404 km  0.001000000000 km
+
+
+
+Updating partials with Secant method...
+
+Partial derivative matrix (scaled) :
+
+       -2.35017265432       -58483.2430988        73984.6062336
+       -862.564788709       -3543410.49837       -2528.97293928
+        900.224206855        6368.31066437        13.4003743195
+
+Secant Update Done...
+
+DC proposed step:
+Name                                          Scaled        Unscaled
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU  0.049234481827  4.164429899136 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU -0.001606023672 -0.052714476053 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU -0.004005269097 -0.004005269097 m/sec
+
+
+Step with Max Step limits applied:
+Name                                          Scaled        Unscaled
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU  0.049234481827  4.164429899136 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU -0.001606023672 -0.052714476053 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU -0.004005269097 -0.004005269097 m/sec
+
+
+Step final values:
+
+Unscaled Controls:
+Name                                    Current Value           Last Update       Total Correction
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU -84.608278973835 m/sec  4.164429899136 m/sec  -0.024675276188 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU  32.827446289030 m/sec -0.052714476053 m/sec   0.004470529668 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU   1.349960635070 m/sec -0.004005269097 m/sec   1.349960635070 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                 Current Value            Desired         Difference          Tolerance
+Drift : CrossTrack -0.000003537470 km  0.000000000000 km -0.000003537470 km  0.001000000000 km
+Drift : InTrack     0.545926756916 km  1.000000000000 km -0.454073243084 km  0.001000000000 km
+Drift : Radial     -0.017353584112 km  0.000000000000 km -0.017353584112 km  0.001000000000 km
+
+
+
+-------------------------------------------------------------
+Iteration =  13
+Unscaled Intermediate Constraints:
+Name                 Current Value            Desired         Difference          Tolerance
+Drift : CrossTrack -0.000003537470 km  0.000000000000 km -0.000003537470 km  0.001000000000 km
+Drift : InTrack     0.545926756916 km  1.000000000000 km -0.454073243084 km  0.001000000000 km
+Drift : Radial     -0.017353584112 km  0.000000000000 km -0.017353584112 km  0.001000000000 km
+
+
+
+Updating partials with Secant method...
+
+Partial derivative matrix (scaled) :
+
+       -2.42147435474       -67635.6016959        73634.8251637
+       -862.562462855       -3543111.94938        -2517.5631172
+        900.230007312        7112.86321569        41.8553769469
+
+Secant Update Done...
+
+DC proposed step:
+Name                                          Scaled        Unscaled
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU  0.000231199658  0.019555700273 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU -0.000132816400 -0.004359429478 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU -0.000122707670 -0.000122707670 m/sec
+
+
+Step with Max Step limits applied:
+Name                                          Scaled        Unscaled
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU  0.000231199658  0.019555700273 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU -0.000132816400 -0.004359429478 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU -0.000122707670 -0.000122707670 m/sec
+
+
+Step final values:
+
+Unscaled Controls:
+Name                                    Current Value           Last Update       Total Correction
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU -84.588723273562 m/sec  0.019555700273 m/sec  -0.005119575914 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU  32.823086859552 m/sec -0.004359429478 m/sec   0.000111100190 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU   1.349837927400 m/sec -0.000122707670 m/sec   1.349837927400 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                 Current Value            Desired         Difference          Tolerance
+Drift : CrossTrack -0.000000365550 km  0.000000000000 km -0.000000365550 km  0.001000000000 km
+Drift : InTrack     0.992993108960 km  1.000000000000 km -0.007006891040 km  0.001000000000 km
+Drift : Radial     -0.004236751307 km  0.000000000000 km -0.004236751307 km  0.001000000000 km
+
+
+
+-------------------------------------------------------------
+Iteration =  14
+Unscaled Intermediate Constraints:
+Name                 Current Value            Desired         Difference          Tolerance
+Drift : CrossTrack -0.000000365550 km  0.000000000000 km -0.000000365550 km  0.001000000000 km
+Drift : InTrack     0.992993108960 km  1.000000000000 km -0.007006891040 km  0.001000000000 km
+Drift : Radial     -0.004236751307 km  0.000000000000 km -0.004236751307 km  0.001000000000 km
+
+
+
+Updating partials with Secant method...
+
+Partial derivative matrix (scaled) :
+
+       -3.40248830994       -86439.7639973        62264.7954672
+        -861.99890345       -3532309.59284        4014.13517071
+        900.750673899        17093.0464333        6076.42249792
+
+Secant Update Done...
+
+DC proposed step:
+Name                                          Scaled        Unscaled
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU  0.000068559377  0.005798999214 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU -0.000003675188 -0.000120630603 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU -0.000002852272 -0.000002852272 m/sec
+
+
+Step with Max Step limits applied:
+Name                                          Scaled        Unscaled
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU  0.000068559377  0.005798999214 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU -0.000003675188 -0.000120630603 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU -0.000002852272 -0.000002852272 m/sec
+
+
+Step final values:
+
+Unscaled Controls:
+Name                                    Current Value           Last Update       Total Correction
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU -84.582924274348 m/sec  0.005798999214 m/sec   0.000679423299 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU  32.822966228949 m/sec -0.000120630603 m/sec  -0.000009530413 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU   1.349835075128 m/sec -0.000002852272 m/sec   1.349835075128 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                 Current Value            Desired         Difference          Tolerance
+Drift : CrossTrack  0.000000303371 km  0.000000000000 km  0.000000303371 km  0.001000000000 km
+Drift : InTrack     1.001057140446 km  1.000000000000 km  0.001057140446 km  0.001000000000 km
+Drift : Radial      0.000774405767 km  0.000000000000 km  0.000774405767 km  0.001000000000 km
+
+
+
+-------------------------------------------------------------
+Iteration =  15
+Unscaled Intermediate Constraints:
+Name                 Current Value            Desired         Difference          Tolerance
+Drift : CrossTrack  0.000000303371 km  0.000000000000 km  0.000000303371 km  0.001000000000 km
+Drift : InTrack     1.001057140446 km  1.000000000000 km  0.001057140446 km  0.001000000000 km
+Drift : Radial      0.000774405767 km  0.000000000000 km  0.000774405767 km  0.001000000000 km
+
+
+
+Updating partials with Secant method...
+
+Partial derivative matrix (scaled) :
+
+        1.00216843198       -71091.0940124        73508.4278569
+       -862.235019088       -3533132.37228        3411.41001202
+        900.567427227        16454.4966312        5608.65433007
+
+Secant Update Done...
+
+DC proposed step:
+Name                                          Scaled        Unscaled
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU -0.000010571366 -0.000894164207 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU  0.000000512689  0.000016827977 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU  0.000000165764  0.000000165764 m/sec
+
+
+Step with Max Step limits applied:
+Name                                          Scaled        Unscaled
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU -0.000010571366 -0.000894164207 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU  0.000000512689  0.000016827977 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU  0.000000165764  0.000000165764 m/sec
+
+
+Step final values:
+
+Unscaled Controls:
+Name                                    Current Value           Last Update       Total Correction
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU -84.583818438555 m/sec -0.000894164207 m/sec  -0.000214740907 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU  32.822983056926 m/sec  0.000016827977 m/sec   0.000007297564 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU   1.349835240892 m/sec  0.000000165764 m/sec   1.349835240892 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                 Current Value            Desired         Difference          Tolerance
+Drift : CrossTrack -0.000000060318 km  0.000000000000 km -0.000000060318 km  0.001000000000 km
+Drift : InTrack     1.000017656117 km  1.000000000000 km  0.000017656117 km  0.001000000000 km
+Drift : Radial     -0.000000603824 km  0.000000000000 km -0.000000603824 km  0.001000000000 km
+
+
+
+--------------------------------------------------------
+
+<<< Targeting Finished >>>
+    [Goals met]
+
+
+--------------------------------------------------------
+
+---Done. (running one step of the differential corrector.)
+
+Params from single diff corr
+
+Unscaled Controls:
+Name                                    Current Value           Last Update       Total Correction
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU -84.583818438555 m/sec -0.000894164207 m/sec  -0.000214740907 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU  32.822983056926 m/sec  0.000016827977 m/sec   0.000007297564 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU   1.349835240892 m/sec  0.000000165764 m/sec   1.349835240892 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                 Current Value            Desired         Difference          Tolerance
+Drift : CrossTrack -0.000000060318 km  0.000000000000 km -0.000000060318 km  0.001000000000 km
+Drift : InTrack     1.000017656117 km  1.000000000000 km  0.000017656117 km  0.001000000000 km
+Drift : Radial     -0.000000603824 km  0.000000000000 km -0.000000603824 km  0.001000000000 km
+
+
+
+----------------------------------------------
+Final Params from Homotopy Diff Corr
+
+Unscaled Controls:
+Name                                    Current Value           Last Update       Total Correction
+Burn1 : ImpulsiveMnvr.Cartesian.XSDU -84.583818438555 m/sec -0.000894164207 m/sec  -0.000214740907 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.YSDU  32.822983056926 m/sec  0.000016827977 m/sec   0.000007297564 m/sec
+Burn1 : ImpulsiveMnvr.Cartesian.ZSDU   1.349835240892 m/sec  0.000000165764 m/sec   1.349835240892 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                 Current Value            Desired         Difference          Tolerance
+Drift : CrossTrack -0.000000060318 km  0.000000000000 km -0.000000060318 km  0.001000000000 km
+Drift : InTrack     1.000017656117 km  1.000000000000 km  0.000017656117 km  0.001000000000 km
+Drift : Radial     -0.000000603824 km  0.000000000000 km -0.000000603824 km  0.001000000000 km
+
+
+
+----------------------------------------------
+
+*********** Done Targeting************************
+
+End targeter profile Target_Approach.Target_RIC
+----------------------------------------------
+Begin targeter profile Target_NMC.Target_Radial_and_InTrack
+
+Initial control parameters:
+
+Unscaled Controls:
+Name                                   Current Value           Last Update       Total Correction
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU  0.000000000000 m/sec  0.000000000000 m/sec   0.000000000000 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU  0.000000000000 m/sec  0.000000000000 m/sec   0.000000000000 m/sec
+
+
+Homotopy step   1 of   1
+
+Intermediate Goals Desired:
+Burn2 : Rel_Mean_Semimajor_Axis  0.000000000000 km
+Prop2PlaneCross : InTrack       -1.000000000000 km
+
+
+
+---Running one step of the differential corrector...
+
+-------------------------------------------------------------
+Iteration =   1
+Unscaled Intermediate Constraints:
+Name                                Current Value            Desired           Difference          Tolerance
+Burn2 : Rel_Mean_Semimajor_Axis   65.581378255893 km  0.000000000000 km   65.581378255893 km  0.000010000000 km
+Prop2PlaneCross : InTrack       -728.238961304445 km -1.000000000000 km -727.238961304445 km  0.001000000000 km
+
+
+
+Performing one Newton-Raphson Step...
+
+Perturbation evaluation +1
+Controls:
+Name                                           Value          Perturbation       Scaled Perturbation
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU  0.100000000000 m/sec  0.100000000000 m/sec      0.100000000000
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU  0.000000000000 m/sec  0.000000000000 m/sec      0.000000000000
+
+Constraints:
+Name                                        Value             Change          Scaled Change
+Burn2 : Rel_Mean_Semimajor_Axis   65.583175185211 km  0.001796929318 km       179.692931753
+Prop2PlaneCross : InTrack       -728.474015449649 km -0.235054145203 km      -235.054145203
+
+
+Perturbation evaluation +2
+Controls:
+Name                                           Value          Perturbation       Scaled Perturbation
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU  0.000000000000 m/sec  0.000000000000 m/sec      0.000000000000
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU  0.100000000000 m/sec  0.100000000000 m/sec      0.100000000000
+
+Constraints:
+Name                                        Value             Change          Scaled Change
+Burn2 : Rel_Mean_Semimajor_Axis   65.766302008562 km  0.184923752668 km       18492.3752668
+Prop2PlaneCross : InTrack       -729.807823215867 km -1.568861911421 km      -1568.86191142
+
+
+Partial derivative matrix (scaled) :
+
+        1796.92931753       -2350.54145203
+        184923.752668       -15688.6191142
+
+Newton Step Done...
+
+DC proposed step:
+Name                                           Scaled         Unscaled
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -77.729930022456 -77.729930022456 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU -34.708697735521 -34.708697735521 m/sec
+
+
+Step with Max Step limits applied:
+Name                                           Scaled         Unscaled
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -10.000000000000 -10.000000000000 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU  -4.465293835398  -4.465293835398 m/sec
+
+
+Step final values:
+
+Unscaled Controls:
+Name                                    Current Value            Last Update       Total Correction
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -10.000000000000 m/sec -10.000000000000 m/sec -10.000000000000 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU  -4.465293835398 m/sec  -4.465293835398 m/sec  -4.465293835398 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                                Current Value            Desired           Difference          Tolerance
+Burn2 : Rel_Mean_Semimajor_Axis   57.169365910882 km  0.000000000000 km   57.169365910882 km  0.000010000000 km
+Prop2PlaneCross : InTrack       -634.558825268854 km -1.000000000000 km -633.558825268854 km  0.001000000000 km
+
+
+
+-------------------------------------------------------------
+Iteration =   2
+Unscaled Intermediate Constraints:
+Name                                Current Value            Desired           Difference          Tolerance
+Burn2 : Rel_Mean_Semimajor_Axis   57.169365910882 km  0.000000000000 km   57.169365910882 km  0.000010000000 km
+Prop2PlaneCross : InTrack       -634.558825268854 km -1.000000000000 km -633.558825268854 km  0.001000000000 km
+
+
+
+Updating partials with Secant method...
+
+Partial derivative matrix (scaled) :
+
+        1587.91017962       -2360.58217692
+        184830.419482       -15693.1025929
+
+Secant Update Done...
+
+DC proposed step:
+Name                                           Scaled         Unscaled
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -66.566016932309 -66.566016932309 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU -30.358832441786 -30.358832441786 m/sec
+
+
+Step with Max Step limits applied:
+Name                                           Scaled         Unscaled
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -10.000000000000 -10.000000000000 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU  -4.560710380592  -4.560710380592 m/sec
+
+
+Step final values:
+
+Unscaled Controls:
+Name                                    Current Value            Last Update       Total Correction
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -20.000000000000 m/sec -10.000000000000 m/sec -20.000000000000 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU  -9.026004215990 m/sec  -4.560710380592 m/sec  -9.026004215990 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                                Current Value            Desired           Difference          Tolerance
+Burn2 : Rel_Mean_Semimajor_Axis   48.631133747219 km  0.000000000000 km   48.631133747219 km  0.000010000000 km
+Prop2PlaneCross : InTrack       -539.162957157422 km -1.000000000000 km -538.162957157422 km  0.001000000000 km
+
+
+
+-------------------------------------------------------------
+Iteration =   3
+Unscaled Intermediate Constraints:
+Name                                Current Value            Desired           Difference          Tolerance
+Burn2 : Rel_Mean_Semimajor_Axis   48.631133747219 km  0.000000000000 km   48.631133747219 km  0.000010000000 km
+Prop2PlaneCross : InTrack       -539.162957157422 km -1.000000000000 km -538.162957157422 km  0.001000000000 km
+
+
+
+Updating partials with Secant method...
+
+Partial derivative matrix (scaled) :
+
+        1172.85265295       -2378.65753288
+        184641.123764       -15701.3462393
+
+Secant Update Done...
+
+DC proposed step:
+Name                                           Scaled         Unscaled
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -54.682832425656 -54.682832425656 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU -25.990843057056 -25.990843057056 m/sec
+
+
+Step with Max Step limits applied:
+Name                                           Scaled         Unscaled
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -10.000000000000 -10.000000000000 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU  -4.753016971532  -4.753016971532 m/sec
+
+
+Step final values:
+
+Unscaled Controls:
+Name                                    Current Value            Last Update       Total Correction
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -30.000000000000 m/sec -10.000000000000 m/sec -30.000000000000 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU -13.779021187522 m/sec  -4.753016971532 m/sec -13.779021187522 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                                Current Value            Desired           Difference          Tolerance
+Burn2 : Rel_Mean_Semimajor_Axis   39.790476282512 km  0.000000000000 km   39.790476282512 km  0.000010000000 km
+Prop2PlaneCross : InTrack       -440.636306733263 km -1.000000000000 km -439.636306733263 km  0.001000000000 km
+
+
+
+-------------------------------------------------------------
+Iteration =   4
+Unscaled Intermediate Constraints:
+Name                                Current Value            Desired           Difference          Tolerance
+Burn2 : Rel_Mean_Semimajor_Axis   39.790476282512 km  0.000000000000 km   39.790476282512 km  0.000010000000 km
+Prop2PlaneCross : InTrack       -440.636306733263 km -1.000000000000 km -439.636306733263 km  0.001000000000 km
+
+
+
+Updating partials with Secant method...
+
+Partial derivative matrix (scaled) :
+
+        743.362099941       -2387.73730135
+        184436.986176       -15705.6618686
+
+Secant Update Done...
+
+DC proposed step:
+Name                                           Scaled         Unscaled
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -43.366211915465 -43.366211915465 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU -21.399237277359 -21.399237277359 m/sec
+
+
+Step with Max Step limits applied:
+Name                                           Scaled         Unscaled
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -10.000000000000 -10.000000000000 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU  -4.934541508738  -4.934541508738 m/sec
+
+
+Step final values:
+
+Unscaled Controls:
+Name                                    Current Value            Last Update       Total Correction
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -40.000000000000 m/sec -10.000000000000 m/sec -40.000000000000 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU -18.713562696260 m/sec  -4.934541508738 m/sec -18.713562696260 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                                Current Value            Desired           Difference          Tolerance
+Burn2 : Rel_Mean_Semimajor_Axis   30.670131952005 km  0.000000000000 km   30.670131952005 km  0.000010000000 km
+Prop2PlaneCross : InTrack       -339.308906951891 km -1.000000000000 km -338.308906951891 km  0.001000000000 km
+
+
+
+-------------------------------------------------------------
+Iteration =   5
+Unscaled Intermediate Constraints:
+Name                                Current Value            Desired           Difference          Tolerance
+Burn2 : Rel_Mean_Semimajor_Axis   30.670131952005 km  0.000000000000 km   30.670131952005 km  0.000010000000 km
+Prop2PlaneCross : InTrack       -339.308906951891 km -1.000000000000 km -338.308906951891 km  0.001000000000 km
+
+
+
+Updating partials with Secant method...
+
+Partial derivative matrix (scaled) :
+
+        300.164248745       -2383.69920193
+        184218.288356       -15703.6692517
+
+Secant Update Done...
+
+DC proposed step:
+Name                                           Scaled         Unscaled
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -32.594587482703 -32.594587482703 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU -16.595689237005 -16.595689237005 m/sec
+
+
+Step with Max Step limits applied:
+Name                                           Scaled         Unscaled
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -10.000000000000 -10.000000000000 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU  -5.091547560101  -5.091547560101 m/sec
+
+
+Step final values:
+
+Unscaled Controls:
+Name                                    Current Value            Last Update       Total Correction
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -50.000000000000 m/sec -10.000000000000 m/sec -50.000000000000 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU -23.805110256361 m/sec  -5.091547560101 m/sec -23.805110256361 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                                Current Value            Desired           Difference          Tolerance
+Burn2 : Rel_Mean_Semimajor_Axis   21.317663351162 km  0.000000000000 km   21.317663351162 km  0.000010000000 km
+Prop2PlaneCross : InTrack       -235.796994296983 km -1.000000000000 km -234.796994296983 km  0.001000000000 km
+
+
+
+-------------------------------------------------------------
+Iteration =   6
+Unscaled Intermediate Constraints:
+Name                                Current Value            Desired           Difference          Tolerance
+Burn2 : Rel_Mean_Semimajor_Axis   21.317663351162 km  0.000000000000 km   21.317663351162 km  0.000010000000 km
+Prop2PlaneCross : InTrack       -235.796994296983 km -1.000000000000 km -234.796994296983 km  0.001000000000 km
+
+
+
+Updating partials with Secant method...
+
+Partial derivative matrix (scaled) :
+
+       -153.360537288       -2361.37950531
+        183987.374055        -15692.305072
+
+Secant Update Done...
+
+DC proposed step:
+Name                                           Scaled         Unscaled
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -22.311766602583 -22.311766602583 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU -11.605079373525 -11.605079373525 m/sec
+
+
+Step with Max Step limits applied:
+Name                                           Scaled         Unscaled
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -10.000000000000 -10.000000000000 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU  -5.201326985996  -5.201326985996 m/sec
+
+
+Step final values:
+
+Unscaled Controls:
+Name                                    Current Value            Last Update       Total Correction
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -60.000000000000 m/sec -10.000000000000 m/sec -60.000000000000 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU -29.006437242357 m/sec  -5.201326985996 m/sec -29.006437242357 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                                Current Value            Desired           Difference          Tolerance
+Burn2 : Rel_Mean_Semimajor_Axis   11.821277604712 km  0.000000000000 km   11.821277604712 km  0.000010000000 km
+Prop2PlaneCross : InTrack       -131.157158941482 km -1.000000000000 km -130.157158941482 km  0.001000000000 km
+
+
+
+-------------------------------------------------------------
+Iteration =   7
+Unscaled Intermediate Constraints:
+Name                                Current Value            Desired           Difference          Tolerance
+Burn2 : Rel_Mean_Semimajor_Axis   11.821277604712 km  0.000000000000 km   11.821277604712 km  0.000010000000 km
+Prop2PlaneCross : InTrack       -131.157158941482 km -1.000000000000 km -130.157158941482 km  0.001000000000 km
+
+
+
+Updating partials with Secant method...
+
+Partial derivative matrix (scaled) :
+
+       -610.356992683       -2314.56708964
+        183749.675255       -15667.9564039
+
+Secant Update Done...
+
+DC proposed step:
+Name                                           Scaled         Unscaled
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -12.405739494682 -12.405739494682 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU  -6.474567580433  -6.474567580433 m/sec
+
+
+Step with Max Step limits applied:
+Name                                           Scaled         Unscaled
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -10.000000000000 -10.000000000000 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU  -5.219009784309  -5.219009784309 m/sec
+
+
+Step final values:
+
+Unscaled Controls:
+Name                                    Current Value            Last Update       Total Correction
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -70.000000000000 m/sec -10.000000000000 m/sec -70.000000000000 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU -34.225447026665 m/sec  -5.219009784309 m/sec -34.225447026665 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                               Current Value            Desired          Difference          Tolerance
+Burn2 : Rel_Mean_Semimajor_Axis   2.349136017910 km  0.000000000000 km   2.349136017910 km  0.000010000000 km
+Prop2PlaneCross : InTrack       -27.358271657732 km -1.000000000000 km -26.358271657732 km  0.001000000000 km
+
+
+
+-------------------------------------------------------------
+Iteration =   8
+Unscaled Intermediate Constraints:
+Name                               Current Value            Desired          Difference          Tolerance
+Burn2 : Rel_Mean_Semimajor_Axis   2.349136017910 km  0.000000000000 km   2.349136017910 km  0.000010000000 km
+Prop2PlaneCross : InTrack       -27.358271657732 km -1.000000000000 km -26.358271657732 km  0.001000000000 km
+
+
+
+Updating partials with Secant method...
+
+Partial derivative matrix (scaled) :
+
+       -1056.26321547       -2226.70019216
+        183516.956361       -15622.0985842
+
+Secant Update Done...
+
+DC proposed step:
+Name                                          Scaled        Unscaled
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -2.745803826364 -2.745803826364 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU -1.295868774664 -1.295868774664 m/sec
+
+
+Step with Max Step limits applied:
+Name                                          Scaled        Unscaled
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -2.745803826364 -2.745803826364 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU -1.295868774664 -1.295868774664 m/sec
+
+
+Step final values:
+
+Unscaled Controls:
+Name                                    Current Value           Last Update       Total Correction
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -72.745803826364 m/sec -2.745803826364 m/sec -72.745803826364 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU -35.521315801330 m/sec -1.295868774664 m/sec -35.521315801330 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                              Current Value            Desired         Difference          Tolerance
+Burn2 : Rel_Mean_Semimajor_Axis  0.005816042963 km  0.000000000000 km  0.005816042963 km  0.000010000000 km
+Prop2PlaneCross : InTrack       -1.999447194550 km -1.000000000000 km -0.999447194550 km  0.001000000000 km
+
+
+
+-------------------------------------------------------------
+Iteration =   9
+Unscaled Intermediate Constraints:
+Name                              Current Value            Desired         Difference          Tolerance
+Burn2 : Rel_Mean_Semimajor_Axis  0.005816042963 km  0.000000000000 km  0.005816042963 km  0.000010000000 km
+Prop2PlaneCross : InTrack       -1.999447194550 km -1.000000000000 km -0.999447194550 km  0.001000000000 km
+
+
+
+Updating partials with Secant method...
+
+Partial derivative matrix (scaled) :
+
+       -1229.49466725       -1929.01379337
+        183435.200619       -15481.6069346
+
+Secant Update Done...
+
+DC proposed step:
+Name                                          Scaled        Unscaled
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -0.467517569508 -0.467517569508 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU -0.006304213428 -0.006304213428 m/sec
+
+
+Step with Max Step limits applied:
+Name                                          Scaled        Unscaled
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -0.467517569508 -0.467517569508 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU -0.006304213428 -0.006304213428 m/sec
+
+
+Step final values:
+
+Unscaled Controls:
+Name                                    Current Value           Last Update       Total Correction
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -73.213321395872 m/sec -0.467517569508 m/sec -73.213321395872 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU -35.527620014757 m/sec -0.006304213428 m/sec -35.527620014757 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                              Current Value            Desired         Difference          Tolerance
+Burn2 : Rel_Mean_Semimajor_Axis -0.005726565270 km  0.000000000000 km -0.005726565270 km  0.000010000000 km
+Prop2PlaneCross : InTrack       -0.259656223115 km -1.000000000000 km  0.740343776885 km  0.001000000000 km
+
+
+
+-------------------------------------------------------------
+Iteration =  10
+Unscaled Intermediate Constraints:
+Name                              Current Value            Desired         Difference          Tolerance
+Burn2 : Rel_Mean_Semimajor_Axis -0.005726565270 km  0.000000000000 km -0.005726565270 km  0.000010000000 km
+Prop2PlaneCross : InTrack       -0.259656223115 km -1.000000000000 km  0.740343776885 km  0.001000000000 km
+
+
+
+Updating partials with Secant method...
+
+Partial derivative matrix (scaled) :
+
+       -4.82963429222       -3512.28944503
+        183451.714543       -15502.9565229
+
+Secant Update Done...
+
+DC proposed step:
+Name                                          Scaled        Unscaled
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU  0.196985441434  0.196985441434 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU  0.003126751342  0.003126751342 m/sec
+
+
+Step with Max Step limits applied:
+Name                                          Scaled        Unscaled
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU  0.196985441434  0.196985441434 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU  0.003126751342  0.003126751342 m/sec
+
+
+Step final values:
+
+Unscaled Controls:
+Name                                    Current Value           Last Update       Total Correction
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -73.016335954438 m/sec  0.196985441434 m/sec -73.016335954438 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU -35.524493263416 m/sec  0.003126751342 m/sec -35.524493263416 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                              Current Value            Desired         Difference          Tolerance
+Burn2 : Rel_Mean_Semimajor_Axis -0.000019729642 km  0.000000000000 km -0.000019729642 km  0.000010000000 km
+Prop2PlaneCross : InTrack       -0.996435589679 km -1.000000000000 km  0.003564410321 km  0.001000000000 km
+
+
+
+-------------------------------------------------------------
+Iteration =  11
+Unscaled Intermediate Constraints:
+Name                              Current Value            Desired         Difference          Tolerance
+Burn2 : Rel_Mean_Semimajor_Axis -0.000019729642 km  0.000000000000 km -0.000019729642 km  0.000010000000 km
+Prop2PlaneCross : InTrack       -0.996435589679 km -1.000000000000 km  0.003564410321 km  0.001000000000 km
+
+
+
+Updating partials with Secant method...
+
+Partial derivative matrix (scaled) :
+
+       -14.8428984076       -3494.19921227
+        183451.555603       -15502.6693765
+
+Secant Update Done...
+
+DC proposed step:
+Name                                          Scaled        Unscaled
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU  0.000972029504  0.000972029504 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU  0.000010833334  0.000010833334 m/sec
+
+
+Step with Max Step limits applied:
+Name                                          Scaled        Unscaled
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU  0.000972029504  0.000972029504 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU  0.000010833334  0.000010833334 m/sec
+
+
+Step final values:
+
+Unscaled Controls:
+Name                                    Current Value           Last Update       Total Correction
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -73.015363924934 m/sec  0.000972029504 m/sec -73.015363924934 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU -35.524482430082 m/sec  0.000010833334 m/sec -35.524482430082 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                              Current Value            Desired         Difference          Tolerance
+Burn2 : Rel_Mean_Semimajor_Axis  0.000000153827 km  0.000000000000 km  0.000000153827 km  0.000010000000 km
+Prop2PlaneCross : InTrack       -1.000033830829 km -1.000000000000 km -0.000033830829 km  0.001000000000 km
+
+
+
+--------------------------------------------------------
+
+<<< Targeting Finished >>>
+    [Goals met]
+
+
+--------------------------------------------------------
+
+---Done. (running one step of the differential corrector.)
+
+Params from single diff corr
+
+Unscaled Controls:
+Name                                    Current Value           Last Update       Total Correction
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -73.015363924934 m/sec  0.000972029504 m/sec -73.015363924934 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU -35.524482430082 m/sec  0.000010833334 m/sec -35.524482430082 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                              Current Value            Desired         Difference          Tolerance
+Burn2 : Rel_Mean_Semimajor_Axis  0.000000153827 km  0.000000000000 km  0.000000153827 km  0.000010000000 km
+Prop2PlaneCross : InTrack       -1.000033830829 km -1.000000000000 km -0.000033830829 km  0.001000000000 km
+
+
+
+----------------------------------------------
+Final Params from Homotopy Diff Corr
+
+Unscaled Controls:
+Name                                    Current Value           Last Update       Total Correction
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -73.015363924934 m/sec  0.000972029504 m/sec -73.015363924934 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU -35.524482430082 m/sec  0.000010833334 m/sec -35.524482430082 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                              Current Value            Desired         Difference          Tolerance
+Burn2 : Rel_Mean_Semimajor_Axis  0.000000153827 km  0.000000000000 km  0.000000153827 km  0.000010000000 km
+Prop2PlaneCross : InTrack       -1.000033830829 km -1.000000000000 km -0.000033830829 km  0.001000000000 km
+
+
+
+----------------------------------------------
+
+*********** Done Targeting************************
+
+End targeter profile Target_NMC.Target_Radial_and_InTrack
+----------------------------------------------
+Begin targeter profile Target_NMC.Target_CrossTrack_Rate
+
+Initial control parameters:
+
+Unscaled Controls:
+Name                                   Current Value           Last Update       Total Correction
+Burn2 : ImpulsiveMnvr.Cartesian.ZSDU  0.000000000000 m/sec  0.000000000000 m/sec   0.000000000000 m/sec
+
+
+Homotopy step   1 of   1
+
+Intermediate Goals Desired:
+Burn2 : CrossTrackRate  0.000000000000 km/sec
+
+
+
+---Running one step of the differential corrector...
+
+-------------------------------------------------------------
+Iteration =   1
+Unscaled Intermediate Constraints:
+Name                     Current Value                Desired             Difference              Tolerance
+Burn2 : CrossTrackRate -0.000037376095 km/sec  0.000000000000 km/sec -0.000037376095 km/sec  0.000001000000 km/sec
+
+
+
+Performing one Newton-Raphson Step...
+
+Perturbation evaluation +1
+Controls:
+Name                                           Value          Perturbation       Scaled Perturbation
+Burn2 : ImpulsiveMnvr.Cartesian.ZSDU  0.100000000000 m/sec  0.100000000000 m/sec      0.100000000000
+
+Constraints:
+Name                             Value                 Change              Scaled Change
+Burn2 : CrossTrackRate  0.000062623905 km/sec  0.000100000000 km/sec       99.9999999989
+
+
+Partial derivative matrix (scaled) :
+
+        999.999999989
+
+Newton Step Done...
+
+DC proposed step:
+Name                                          Scaled        Unscaled
+Burn2 : ImpulsiveMnvr.Cartesian.ZSDU  0.037376095065  0.037376095065 m/sec
+
+
+Step with Max Step limits applied:
+Name                                          Scaled        Unscaled
+Burn2 : ImpulsiveMnvr.Cartesian.ZSDU  0.037376095065  0.037376095065 m/sec
+
+
+Step final values:
+
+Unscaled Controls:
+Name                                   Current Value           Last Update       Total Correction
+Burn2 : ImpulsiveMnvr.Cartesian.ZSDU  0.037376095065 m/sec  0.037376095065 m/sec   0.037376095065 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                     Current Value                Desired             Difference              Tolerance
+Burn2 : CrossTrackRate -0.000000000000 km/sec  0.000000000000 km/sec -0.000000000000 km/sec  0.000001000000 km/sec
+
+
+
+--------------------------------------------------------
+
+<<< Targeting Finished >>>
+    [Goals met]
+
+
+--------------------------------------------------------
+
+---Done. (running one step of the differential corrector.)
+
+Params from single diff corr
+
+Unscaled Controls:
+Name                                   Current Value           Last Update       Total Correction
+Burn2 : ImpulsiveMnvr.Cartesian.ZSDU  0.037376095065 m/sec  0.037376095065 m/sec   0.037376095065 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                     Current Value                Desired             Difference              Tolerance
+Burn2 : CrossTrackRate -0.000000000000 km/sec  0.000000000000 km/sec -0.000000000000 km/sec  0.000001000000 km/sec
+
+
+
+----------------------------------------------
+Final Params from Homotopy Diff Corr
+
+Unscaled Controls:
+Name                                   Current Value           Last Update       Total Correction
+Burn2 : ImpulsiveMnvr.Cartesian.ZSDU  0.037376095065 m/sec  0.037376095065 m/sec   0.037376095065 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                     Current Value                Desired             Difference              Tolerance
+Burn2 : CrossTrackRate -0.000000000000 km/sec  0.000000000000 km/sec -0.000000000000 km/sec  0.000001000000 km/sec
+
+
+
+----------------------------------------------
+
+*********** Done Targeting************************
+
+End targeter profile Target_NMC.Target_CrossTrack_Rate
+----------------------------------------------
+Begin targeter profile Target_NMC.Target_RI_and_CrossTrack_Rate
+
+Initial control parameters:
+
+Unscaled Controls:
+Name                                    Current Value           Last Update       Total Correction
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -73.015363924934 m/sec  0.000000000000 m/sec   0.000000000000 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU -35.524482430082 m/sec  0.000000000000 m/sec   0.000000000000 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.ZSDU   0.037376095065 m/sec  0.000000000000 m/sec   0.000000000000 m/sec
+
+
+Homotopy step   1 of   1
+
+Intermediate Goals Desired:
+Burn2 : CrossTrackRate           0.000000000000 km/sec
+Burn2 : Rel_Mean_Semimajor_Axis  0.000000000000 km    
+Prop2PlaneCross : InTrack       -1.000000000000 km    
+
+
+
+---Running one step of the differential corrector...
+
+-------------------------------------------------------------
+Iteration =   1
+Unscaled Intermediate Constraints:
+Name                              Current Value                Desired             Difference              Tolerance
+Burn2 : CrossTrackRate          -0.000000000000 km/sec  0.000000000000 km/sec -0.000000000000 km/sec  0.000001000000 km/sec
+Burn2 : Rel_Mean_Semimajor_Axis -0.000012906631 km      0.000000000000 km     -0.000012906631 km      0.000010000000 km    
+Prop2PlaneCross : InTrack       -1.000112174917 km     -1.000000000000 km     -0.000112174917 km      0.001000000000 km    
+
+
+
+Performing one Newton-Raphson Step...
+
+Perturbation evaluation +1
+Controls:
+Name                                            Value          Perturbation       Scaled Perturbation
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -72.915363924934 m/sec  0.100000000000 m/sec      0.001369574767
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU -35.524482430082 m/sec  0.000000000000 m/sec      0.000000000000
+Burn2 : ImpulsiveMnvr.Cartesian.ZSDU   0.037376095065 m/sec  0.000000000000 m/sec      0.000000000000
+
+Constraints:
+Name                                      Value                 Change              Scaled Change
+Burn2 : CrossTrackRate          -0.000000000000 km/sec -0.000000000000 km/sec  -7.85635445588e-10
+Burn2 : Rel_Mean_Semimajor_Axis  0.000021041534 km      0.000033948165 km           3.39481653646
+Prop2PlaneCross : InTrack       -1.360823392612 km     -0.360711217695 km          -360.711217695
+
+
+Perturbation evaluation +2
+Controls:
+Name                                            Value          Perturbation       Scaled Perturbation
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -73.015363924934 m/sec  0.000000000000 m/sec      0.000000000000
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU -35.424482430082 m/sec  0.100000000000 m/sec      0.002814960083
+Burn2 : ImpulsiveMnvr.Cartesian.ZSDU   0.037376095065 m/sec  0.000000000000 m/sec      0.000000000000
+
+Constraints:
+Name                                      Value                 Change              Scaled Change
+Burn2 : CrossTrackRate          -0.000000000491 km/sec -0.000000000491 km/sec  -0.000490539251989
+Burn2 : Rel_Mean_Semimajor_Axis  0.180593923102 km      0.180606829734 km           18060.6829734
+Prop2PlaneCross : InTrack       -2.036832636758 km     -1.036720461841 km          -1036.72046184
+
+
+Perturbation evaluation +3
+Controls:
+Name                                            Value          Perturbation       Scaled Perturbation
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -73.015363924934 m/sec  0.000000000000 m/sec      0.000000000000
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU -35.524482430082 m/sec  0.000000000000 m/sec      0.000000000000
+Burn2 : ImpulsiveMnvr.Cartesian.ZSDU   0.137376095065 m/sec  0.100000000000 m/sec      2.675506893571
+
+Constraints:
+Name                                      Value                 Change              Scaled Change
+Burn2 : CrossTrackRate           0.000100000000 km/sec  0.000100000000 km/sec       99.9999999989
+Burn2 : Rel_Mean_Semimajor_Axis -0.000046219855 km     -0.000033313223 km          -3.33132231608
+Prop2PlaneCross : InTrack       -1.000329432631 km     -0.000217257714 km         -0.217257713995
+
+
+Partial derivative matrix (scaled) :
+
+   -5.73634579719e-07        2478.73764868       -263374.608318
+      -0.174261530386        6415964.14962       -368289.578316
+        37.3760950642       -1.24511819577     -0.0812024497177
+
+Newton Step Done...
+
+DC proposed step:
+Name                                          Scaled        Unscaled
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -0.000000707594 -0.000051665242 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU  0.000000201438  0.000007155970 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.ZSDU  0.000000000940  0.000000000035 m/sec
+
+
+Step with Max Step limits applied:
+Name                                          Scaled        Unscaled
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -0.000000707594 -0.000051665242 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU  0.000000201438  0.000007155970 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.ZSDU  0.000000000940  0.000000000035 m/sec
+
+
+Step final values:
+
+Unscaled Controls:
+Name                                    Current Value           Last Update       Total Correction
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -73.015415590176 m/sec -0.000051665242 m/sec  -0.000051665242 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU -35.524475274111 m/sec  0.000007155970 m/sec   0.000007155970 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.ZSDU   0.037376095100 m/sec  0.000000000035 m/sec   0.000000000035 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                              Current Value                Desired             Difference              Tolerance
+Burn2 : CrossTrackRate           0.000000000000 km/sec  0.000000000000 km/sec  0.000000000000 km/sec  0.000001000000 km/sec
+Burn2 : Rel_Mean_Semimajor_Axis  0.000000000194 km      0.000000000000 km      0.000000000194 km      0.000010000000 km    
+Prop2PlaneCross : InTrack       -0.999986637102 km     -1.000000000000 km      0.000013362898 km      0.001000000000 km    
+
+
+
+--------------------------------------------------------
+
+<<< Targeting Finished >>>
+    [Goals met]
+
+
+--------------------------------------------------------
+
+---Done. (running one step of the differential corrector.)
+
+Params from single diff corr
+
+Unscaled Controls:
+Name                                    Current Value           Last Update       Total Correction
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -73.015415590176 m/sec -0.000051665242 m/sec  -0.000051665242 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU -35.524475274111 m/sec  0.000007155970 m/sec   0.000007155970 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.ZSDU   0.037376095100 m/sec  0.000000000035 m/sec   0.000000000035 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                              Current Value                Desired             Difference              Tolerance
+Burn2 : CrossTrackRate           0.000000000000 km/sec  0.000000000000 km/sec  0.000000000000 km/sec  0.000001000000 km/sec
+Burn2 : Rel_Mean_Semimajor_Axis  0.000000000194 km      0.000000000000 km      0.000000000194 km      0.000010000000 km    
+Prop2PlaneCross : InTrack       -0.999986637102 km     -1.000000000000 km      0.000013362898 km      0.001000000000 km    
+
+
+
+----------------------------------------------
+Final Params from Homotopy Diff Corr
+
+Unscaled Controls:
+Name                                    Current Value           Last Update       Total Correction
+Burn2 : ImpulsiveMnvr.Cartesian.XSDU -73.015415590176 m/sec -0.000051665242 m/sec  -0.000051665242 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.YSDU -35.524475274111 m/sec  0.000007155970 m/sec   0.000007155970 m/sec
+Burn2 : ImpulsiveMnvr.Cartesian.ZSDU   0.037376095100 m/sec  0.000000000035 m/sec   0.000000000035 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                              Current Value                Desired             Difference              Tolerance
+Burn2 : CrossTrackRate           0.000000000000 km/sec  0.000000000000 km/sec  0.000000000000 km/sec  0.000001000000 km/sec
+Burn2 : Rel_Mean_Semimajor_Axis  0.000000000194 km      0.000000000000 km      0.000000000194 km      0.000010000000 km    
+Prop2PlaneCross : InTrack       -0.999986637102 km     -1.000000000000 km      0.000013362898 km      0.001000000000 km    
+
+
+
+----------------------------------------------
+
+*********** Done Targeting************************
+
+End targeter profile Target_NMC.Target_RI_and_CrossTrack_Rate
